@@ -21,4 +21,18 @@ nav {
         text-decoration: none;
         color: #dddddd; }
 
+.main-element {
+  background-color: #7b90a0;
+  width: 80%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 1em; }
+  .main-element .element-content {
+    display: flex;
+    flex-flow: row; }
+    .main-element .element-content .image {
+      width: 30%; }
+    .main-element .element-content .text {
+      width: 70%; }
+
 /*# sourceMappingURL=style.css.map */
