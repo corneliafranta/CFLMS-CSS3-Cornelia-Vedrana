@@ -16,7 +16,7 @@ html {
   top: 25%;
   left: 60%;
   transform: translate(-100%, 0%);
-  color: brown; }
+  color: #dddddd; }
 
 h1 {
   font-size: 8em; }
@@ -26,5 +26,25 @@ h5 {
 
 h1 {
   color: #5ff57a; }
+
+nav {
+  background-color: #6d6153;
+  height: 4em;
+  display: flex;
+  font-family: "Raleway", sans-serif; }
+  nav .logo {
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+    margin-right: 8em; }
+  nav ul {
+    list-style: none;
+    align-items: center; }
+    nav ul li {
+      display: inline;
+      margin-right: 5em;
+      margin-left: 1em; }
+      nav ul li a {
+        text-decoration: none;
+        color: #dddddd; }
 
 /*# sourceMappingURL=style.css.map */

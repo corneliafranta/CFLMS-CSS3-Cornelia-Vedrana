@@ -1,10 +1,44 @@
-$primary-color: #c6538c
-$secondary-color: black
-$third-color: brown
-$fourth-color: green
+$primary-color: #795a40
+$secondary-color: #c65252
+$tertiary-color: #dddddd
+$quaternary-color: #eddcd7
+$quinary-color: #cabbb7
+$senary-color: #dec45a
+$septenary-color: #894262
+$octonary-color: #7b90a0
+$nonary-color: #6d6153
+
+$logo-font: 'Dancing Script', cursive
+$standart-font: 'Raleway', sans-serif
+
+
 
 @import 'hero'
 
 h1
   color: #5ff57a
+
+nav
+  background-color: #6d6153
+  height: 4em
+  display: flex
+  font-family: $standart-font
+
+  .logo
+    font-family: $logo-font
+    font-size: 2em
+    margin-right: 8em
+
+  ul
+    list-style: none
+    align-items: center
+
+    li
+      display: inline
+      margin-right: 5em
+      margin-left: 1em
+
+      a
+        text-decoration: none
+        color: #dddddd
 
