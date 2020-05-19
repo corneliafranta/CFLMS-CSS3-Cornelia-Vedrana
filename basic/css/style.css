@@ -1,3 +1,29 @@
+html {
+  height: 100%; }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/lovelace-laptop.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-100%, 0%);
+  color: #dddddd; }
+
+h1 {
+  font-size: 8em; }
+
+h5 {
+  font-size: 3em; }
+
 h1 {
   color: #5ff57a; }
 
