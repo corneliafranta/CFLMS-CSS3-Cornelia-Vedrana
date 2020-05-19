@@ -15,6 +15,7 @@ $standart-font: 'Raleway', sans-serif
 
 
 @import 'hero'
+@import "contact"
 
 h1
   color: $tertiary-color
@@ -67,6 +68,20 @@ nav
       font-family: $standart-font
       padding: 1em
 
+
+  .row
+    display: flex
+    flex-wrap: wrap
+
+    .element-content
+      flex: 50%
+
+      img
+        width: 100%
+        margin: auto
+        max-height: 407px
+
+
   .element-header
     background-color: $tertiary-color
     color: $tenth-color
@@ -78,3 +93,49 @@ nav
     margin-bottom: 2em
     margin-top: 2em
     padding-top: 1em
+
+    p
+      margin-top: 2em
+      padding-top: 3em
+      padding-bottom: 2em
+      font-size: 1.2em
+
+
+$bg: #fff
+
+.quote 
+  display: flex
+  margin: 1em
+  overflow: hidden
+  blockquote 
+    background-color: $bg
+    border: solid 2px #757575
+    display: inline-block
+    margin: 0
+    padding: 1em
+    position: relative
+    font-family: $standart-font
+    &:before
+      background-color: $bg
+      bottom: -10%
+      content: ""
+      left: 0
+      position: absolute
+      right: 0
+      top: -10%
+      transform: rotate(-15deg) skew(5deg)
+    
+    cite 
+      display: block
+      font-style: italic
+      text-align: right
+      &:before 
+        content: "- "
+      
+    
+    > * 
+      position: relative
+      z-index: 1
+    
+  
+

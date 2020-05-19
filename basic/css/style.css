@@ -26,6 +26,25 @@ h5 {
   font-size: 2em;
   margin-block-start: 0.5em; }
 
+form {
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  text-align: center; }
+
+form input[type=text], input[type=email], textarea {
+  margin-top: 0.5em;
+  margin-bottom: 2em; }
+
+.submitButton {
+  background-color: #c65252;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  width: 6em;
+  color: #EDDCD7;
+  padding: 1em;
+  margin-top: 2em; }
+
 h1 {
   color: #dddddd; }
 
@@ -68,6 +87,15 @@ nav {
       color: #dddddd;
       font-family: "Raleway", sans-serif;
       padding: 1em; }
+  .main-element .row {
+    display: flex;
+    flex-wrap: wrap; }
+    .main-element .row .element-content {
+      flex: 50%; }
+      .main-element .row .element-content img {
+        width: 100%;
+        margin: auto;
+        max-height: 407px; }
   .main-element .element-header {
     background-color: #dddddd;
     color: #9b8c7a;
@@ -79,5 +107,41 @@ nav {
     margin-bottom: 2em;
     margin-top: 2em;
     padding-top: 1em; }
+    .main-element .element-header p {
+      margin-top: 2em;
+      padding-top: 3em;
+      padding-bottom: 2em;
+      font-size: 1.2em; }
+
+.quote {
+  display: flex;
+  margin: 1em;
+  overflow: hidden; }
+  .quote blockquote {
+    background-color: #fff;
+    border: solid 2px #757575;
+    display: inline-block;
+    margin: 0;
+    padding: 1em;
+    position: relative;
+    font-family: "Raleway", sans-serif; }
+    .quote blockquote:before {
+      background-color: #fff;
+      bottom: -10%;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: -10%;
+      transform: rotate(-15deg) skew(5deg); }
+    .quote blockquote cite {
+      display: block;
+      font-style: italic;
+      text-align: right; }
+      .quote blockquote cite:before {
+        content: "- "; }
+    .quote blockquote > * {
+      position: relative;
+      z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
