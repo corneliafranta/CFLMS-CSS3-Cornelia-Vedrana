@@ -1,22 +1,24 @@
 $primary-color: #795a40
 $secondary-color: #c65252
 $tertiary-color: #dddddd
-$quaternary-color: #eddcd7
+$quaternary-color: #9b8c7a
 $quinary-color: #cabbb7
 $senary-color: #dec45a
 $septenary-color: #894262
 $octonary-color: #7b90a0
 $nonary-color: #6d6153
+$tenth-color: #9b8c7a
 
 $logo-font: 'Dancing Script', cursive
 $standart-font: 'Raleway', sans-serif
 
 
 
+
 @import 'hero', 'quotes'
 
 nav
-  background-color: #6d6153
+  background-color: $nonary-color
   height: 4em
   display: flex
   font-family: $standart-font
@@ -37,5 +39,40 @@ nav
 
       a
         text-decoration: none
-        color: #dddddd
+        color: $tertiary-color
 
+
+.main-element
+  width: 80%
+  height: fit-content
+  display: flex
+  flex-flow: column
+  margin: auto
+  margin-bottom: 1em
+  margin-top: 1em
+
+
+  .element-content
+    display: flex
+    flex-flow: row
+
+    .image
+      width: 30%
+    .text
+      width: 70%
+      background-color: #9b8c7a
+      color: $tertiary-color
+      font-family: $standart-font
+      padding: 1em
+
+  .element-header
+    background-color: $tertiary-color
+    color: $tenth-color
+    height: 6em
+    width: 100%
+    text-align: center
+    font-family: $standart-font
+    font-weight: bold
+    margin-bottom: 2em
+    margin-top: 2em
+    padding-top: 1em
