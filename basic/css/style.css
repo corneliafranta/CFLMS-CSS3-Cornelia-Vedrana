@@ -24,8 +24,17 @@ h1 {
 h5 {
   font-size: 3em; }
 
-h1 {
-  color: #5ff57a; }
+div#element2 {
+  background-color: #6d6153;
+  color: #dddddd;
+  font-family: "Raleway", sans-serif;
+  padding: 50px 80px; }
+
+blockquote {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  font-style: italic; }
 
 nav {
   background-color: #6d6153;
