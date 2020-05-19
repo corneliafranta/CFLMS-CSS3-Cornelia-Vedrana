@@ -45,8 +45,45 @@ form input[type=text], input[type=email], textarea {
   padding: 1em;
   margin-top: 2em; }
 
-h1 {
+.hero-image-container {
+  width: 80%; }
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/lovelace-laptop.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 60%;
+  transform: translate(-100%, 0%);
   color: #dddddd; }
+
+h1 {
+  font-size: 5em;
+  margin-block-end: 0; }
+
+h5 {
+  font-size: 2em;
+  margin-block-start: 0.5em; }
+
+div#element2 {
+  background-color: #6d6153;
+  color: #dddddd;
+  font-family: "Raleway", sans-serif;
+  padding: 50px 80px; }
+
+blockquote {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: justify;
+  font-style: italic; }
 
 nav {
   background-color: #6d6153;
